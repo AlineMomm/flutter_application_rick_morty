@@ -24,7 +24,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Rick and Morty")),
+        appBar: AppBar(title: Text("Rick and Morty API APP")),
         body: HomeView(),
       ),
     );
